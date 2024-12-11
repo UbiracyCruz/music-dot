@@ -13,9 +13,9 @@ legend{
     margin-inline: auto;
     display: block;
     width: 90%;
+}
 
-    img{
-        margin-inline: auto;
-        display: block;
-    }
+legend > img{
+    margin-inline: auto;
+    display: block;
 }
