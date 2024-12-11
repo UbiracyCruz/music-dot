@@ -6,16 +6,19 @@ h1{
 h2, h3, h4, h5, h6{
     border-bottom-style: solid;
 }
-legend{
+
+figure{
     background-color: whitesmoke;
-    color: lightgrey;
     text-align: center;
     margin-inline: auto;
-    display: block;
     width: 90%;
 }
-
-legend > img{
+figure > img{
     margin-inline: auto;
+    display: block;
+}
+
+figure > caption{
+    color: lightgrey;
     display: block;
 }
