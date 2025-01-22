@@ -16,9 +16,21 @@ h2, h3, h4, h5, h6{
 figure{
     background-color: whitesmoke;
     text-align: center;
-    margin-inline: auto;
     padding: 15px;
     margin: 30px;
+}
+
+#figure-matriz{
+    width: 550px;
+    margin-inline: auto;
+}
+
+#figure-familia-tupfeln{
+    width: 275px;
+    float: right;
+}
+figure > img{
+    width: 100%;
 }
 img{
     margin-bottom: 10px;
