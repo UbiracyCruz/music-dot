@@ -3,13 +3,13 @@ body{
     width: 940px;
     margin-inline: auto;
 }
-h1{
+.header{
     color:#3D3D3D;
     background-color: #E1EDF2;
     padding: 10px;
 }
 
-h2, h3, h4, h5, h6{
+.subheader{
     border-bottom-style: solid;
 }
 
