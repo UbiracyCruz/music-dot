@@ -41,3 +41,21 @@ figure > figcaption{
     color: black;
     display: block;
 }
+
+address h3{
+    display: inline;
+    margin-bottom: 8px;
+}
+
+address div span{
+    margin-left: 50px;
+}
+#correspondencia{
+    float: left;
+}
+#telefones{
+    float: right;
+}
+#correspondencia > span{
+    font-style: italic;
+}
