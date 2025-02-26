@@ -4,15 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário Contato</title>
+    <link rel="icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,&display=block" rel="stylesheet">
 </head>
 <body>
+    <img src="./img/logo.svg" alt="MusicDot Logo">
+    <h1 class="header">Entre em Contato</h1>
     <form>
-        <label for="nome">Nome</label>
-        <input type="text" name="nome">
-        <label for="telefone"></label>
-        <input type="tel" name="telefone" id="telefone">
-        <label for="email"></label>
-        <input type="email" name="email" id="email">
+        <input type="text" name="nome" id="nome" placeholder="Fulano de Tal">
+        <label for="nome">Nome</label><br>
+        <input type="tel" name="telefone" id="telefone" placeholder="(xx) xxxxx- xxxx">
+        <label for="telefone">Fone</label><br>
+        <input type="email" name="email" id="email" placeholder="fulano@mail.com">
+        <label for="email">Email</label><br>
+        <input type="text" name="obs" id="obs" placeholder="Deixe sua opinião"><br>
+        <button>Enviar</button>
     </form>
 </body>
 </html>
